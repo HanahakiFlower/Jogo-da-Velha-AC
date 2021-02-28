@@ -14,7 +14,7 @@ public class principal {
                 methods.game();
                 System.out.println("Jogar novamente? (y/n)");
                 userReply = sc.next().charAt(0);
-            }while(userReply == 'y' || userReply == 'Y');
+            }while(userReply == 'y' || userReply == 'Y');       // Continua a chamar game() enquanto o usuário queira jogar.
     
         }
         sc.close();
@@ -23,6 +23,3 @@ public class principal {
     }
             
 }
-
-
-    
