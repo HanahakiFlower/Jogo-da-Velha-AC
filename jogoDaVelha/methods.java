@@ -11,6 +11,7 @@ public class methods {
                 M[i][j] = ' ';                  // Preenche cada elemento da matriz com 1 espaçamento.
             }
         }
+        
         return M;
     }
         
@@ -61,7 +62,6 @@ public class methods {
         }
 
         return lin;
-    
     }
 
     // ----------------------------------------------------------
@@ -173,6 +173,7 @@ public class methods {
         else{
             result = false;
         }
+
         return result;
     }
 
@@ -215,10 +216,3 @@ public class methods {
         }
     }
 }
-
-    
-
-    
-
- 
-

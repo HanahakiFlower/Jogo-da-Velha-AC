@@ -18,8 +18,5 @@ public class principal {
     
         }
         sc.close();
-
-        
     }
-            
 }
